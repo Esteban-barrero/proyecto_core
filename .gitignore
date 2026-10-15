@@ -1,0 +1,33 @@
+# Archivos temporales de Office
+~$*
+*.tmp
+*.bak
+
+# Sistema operativo
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Flutter / Dart (para cuando se agregue el codigo)
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# Node / herramientas
+node_modules/
+
+# Variables de entorno y secretos
+.env
+*.keystore
+key.properties
+
+# Respaldos y exportaciones de datos (NO subir: datos sensibles)
+auth_usuarios*.json
+backups/
+
+# Nota: google-services.json / GoogleService-Info.plist SI se versionan.
+# Son identificadores publicos del cliente (la seguridad va en las reglas
+# de Firestore/Storage y en Authentication), y el plugin de Gradle de
+# Android los requiere para compilar.
